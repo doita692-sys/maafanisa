@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hallo sayang aku ramdan ada surat dari aku nih ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <main class="app">
+
+    <div class="progress">
+      <span id="progressText">Slide 1 dari 5</span>
+      <div class="progress-track">
+        <div id="progressBar"></div>
+      </div>
+    </div>
+
+    <!-- SLIDE 1: PEMBUKA -->
+    <section class="slide active" id="slide1">
+      <div class="emoji">💌</div>
+      <p class="eyebrow">SEBUAH PESAN UNTUKMU</p>
+      <h1> hallo sayang aku ramdan ada surat dari aku nih</h1> ❤️</h1>
+      <p class="description">
+        Ada sesuatu yang ingin aku sampaikan dari hati.
+        Maukah kamu membuka surat kecil ini?
+      </p>
+
+      <label for="pinInput">masukan pin rahasia</label>
+      <input
+        type="password"
+        id="pinInput"
+        placeholder="Masukkan PIN"
+        maxlength="12"
+      >
+
+      <p id="pinMessage" class="message" aria-live="polite"></p>
+      <button class="primary" id="openButton">Buka Surat 💗</button>
+    </section>
+
+    <!-- SLIDE 2: SURAT MAAF -->
+    <section class="slide" id="slide2">
+      <div class="emoji">📝</div>
+      <p class="eyebrow">DARI HATI YANG TULUS</p>
+      <h1>Maafkan Aku ❤️</h1>
+
+      <div class="letter">
+        <p>Hai, sayangku. ❤️</p>
+
+        <p>
+          sayang Aku ingin meminta maaf atas kesalahan yang sudah aku lakukan.
+          Aku sadar mungkin ada perkataan atau sikapku yang membuatmu
+          kecewa, sedih, atau merasa tidak dihargai.
+        </p>
+
+        <p>
+          Aku tidak ingin membenarkan kesalahanku dengan alasan apa pun.
+          Perasaanmu penting, dan aku ingin belajar mendengarkanmu
+          dengan lebih baik.
+        </p>
+
+        <p>
+          Aku tahu kata maaf saja tidak cukup. Aku ingin membuktikannya
+          melalui sikap dan perubahan yang nyata, bukan sekadar janji.
+        </p>
+
+        <p>
+          Kalau kamu masih membutuhkan waktu, aku akan menghargainya.
+          Aku berharap kita bisa berbicara dengan tenang dan saling
+          memahami.
+        </p>
+
+        <p>
+          Terima kasih karena sudah menjadi bagian berharga dalam hidupku.
+          Maafkan aku, ya. ❤️
+        </p>
+
+        <p class="signature">
+          Dengan tulus,<br>
+          seseorang yang sedang belajar menjadi lebih baik
+          .RAMDAN 💗
+        </p>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: GALERI FOTO -->
+    <section class="slide" id="slide3">
+      <div class="emoji">📸</div>
+      <p class="eyebrow">POTONGAN KENANGAN</p>
+      <h1>Kenangan Kita</h1>
+      <p class="description">
+        Setiap foto menyimpan cerita yang berharga.
+      </p>
+
+      <div class="photo-grid">
+        <figure>
+          <img src="foto/foto1.jpg" alt="Kenangan pertama">
+          <figcaption>Kenangan 1 ❤️</figcaption>
+        </figure>
+
+        <figure>
+          <img src="foto/foto2.jpg" alt="Kenangan kedua">
+          <figcaption>Kenangan 2 💗</figcaption>
+        </figure>
+
+        <figure>
+          <img src="foto/foto3.jpg" alt="Kenangan ketiga">
+          <figcaption>Kenangan 3 💕</figcaption>
+        </figure>
+
+        <figure>
+          <img src="foto/foto4.jpg" alt="Kenangan keempat">
+          <figcaption>Kenangan 4 💖</figcaption>
+        </figure>
+      </div>
+
+      <p class="small-note">
+        love youuu sayang 
+      </p>
+    </section>
+
+    <!-- SLIDE 4: LAGU SPOTIFY -->
+    <section class="slide" id="slide4">
+      <div class="emoji">🎵</div>
+      <p class="eyebrow">PUTAR LAGU INI</p>
+      <h1>Lagu untuk Kita</h1>
+      <p class="description">
+        Ada lagu yang ingin aku bagikan denganmu.
+        Semoga lagu ini menyampaikan perasaanku. ❤️
+      </p>
+
+      <div class="spotify-box">
+        <!-- GANTI ID LAGU DI BAWAH INI -->
+        <iframe
+          id="spotifyPlayer"
+          title="Pemutar lagu Spotify"
+          src="https://open.spotify.com/embed/track/2SscarnRY3zdkORvPu9JGZ?utm_source=generator&si=cae32878ee65461d"
+          width="100%"
+          height="152"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <p class="small-note">
+        Tekan tombol Play pada pemutar Spotify untuk mendengarkan lagu.
+      </p>
+    </section>
+
+    <!-- SLIDE 5: KEJUTAN -->
+    <section class="slide" id="slide5">
+      <div class="emoji">💖</div>
+      <p class="eyebrow">PESAN TERAKHIR</p>
+      <h1>Satu Hal Lagi...</h1>
+
+      <p class="description">
+        Aku tidak bisa mengubah masa lalu, tetapi aku bisa belajar
+        dari kesalahan dan berusaha menjadi lebih baik.
+      </p>
+
+      <button class="primary" id="surpriseButton">
+        Buka Kejutan 💝
+      </button>
+
+      <div id="surpriseMessage" class="surprise hidden">
+        <div class="big-heart">❤️</div>
+        <h2>Terima Kasih</h2>
+        <p>
+          Terima kasih sudah meluangkan waktu membaca pesan ini.
+          Aku berharap kita bisa saling memahami dan berbicara
+          dengan hati yang lebih tenang.
+        </p>
+        <p>Maafkan aku, ya. 💗</p>
+      </div>
+    </section>
+
+    <!-- NAVIGASI SLIDE -->
+    <nav class="navigation hidden" id="navigation">
+      <button class="secondary" id="backButton">← Kembali</button>
+      <button class="primary" id="nextButton">Selanjutnya →</button>
+    </nav>
+
+    <footer>Dibuat dengan tulus ❤️</footer>
+
+  </main>
+
+</body>
+</html>
